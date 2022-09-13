@@ -42,6 +42,8 @@ namespace dogRoundUp
 
             services.AddScoped<AccountsRepository>();
             services.AddScoped<AccountService>();
+            services.AddTransient<DogsRepository>();
+            services.AddTransient<DogsService>();
         }
 
         private void ConfigureCors(IServiceCollection services)
