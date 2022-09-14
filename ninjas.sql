@@ -39,6 +39,7 @@ DELETE FROM ninjas;
     VALUES 
     ("Chris Farley", "Ignorance", false, "blonde");
 
+
 -- NOTE get all
     SELECT * FROM ninjas;
 
